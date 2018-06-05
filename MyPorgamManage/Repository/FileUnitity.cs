@@ -8,6 +8,8 @@ namespace Repository
 {
     public class FileUnitity
     {
+        private static object _lock = new object();
+
         /// <summary>
         /// 读取文件到 字符串
         /// </summary>
@@ -60,6 +62,45 @@ namespace Repository
             fstreamwr.Close();
             fstreamwr.Dispose();
         }
+        /// <summary>
+        /// 将字符串追加到指定的文件
+        /// </summary>
+        /// <param name="fileName"></param>
+        /// <param name="context"></param>
+        /// <param name="encoding"></param>
+        public static void StringToFile(string fileName, string context, Encoding encoding)
+        { 
+            if (null == encoding) encoding = Encoding.UTF8;
+            if (!FileUnitity.FileExist(fileName))
+            {
+                FileUnitity.CreateEmptyFile(fileName);
+            }
+
+            StreamWriter sw = null;
+            try
+            {
+                lock (_lock)
+                {
+                    sw = File.AppendText(fileName);
+                    sw.WriteLine(context);   
+                }                             
+            }
+            catch 
+            {}
+            finally
+            {
+                if (sw != null)
+                {
+                    sw.Flush();
+                    sw.Close();
+                    sw.Dispose();
+                }
+            }
+
+
+        }
+
+
         /// <summary>
         /// 删除文件
         /// </summary>
