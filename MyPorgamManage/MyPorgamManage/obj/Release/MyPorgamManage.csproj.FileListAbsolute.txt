@@ -42,3 +42,6 @@ C:\Users\ErricShih\Desktop\MyPorgamManage\MyPorgamManage\obj\Release\MyPorgamMan
 C:\Users\ErricShih\Desktop\MyPorgamManage\MyPorgamManage\obj\Release\MyPorgamManage.exe.licenses
 C:\Users\ErricShih\Desktop\MyPorgamManage\MyPorgamManage\obj\Release\MyPorgamManage.exe
 C:\Users\ErricShih\Desktop\MyPorgamManage\MyPorgamManage\obj\Release\MyPorgamManage.pdb
+C:\Users\ErricShih\Desktop\MyProgram\MyPorgamManage\MyPorgamManage\bin\Release\MyPorgamManage.exe.config
+C:\Users\ErricShih\Desktop\MyProgram\MyPorgamManage\MyPorgamManage\obj\Release\MyPorgamManage.exe
+C:\Users\ErricShih\Desktop\MyProgram\MyPorgamManage\MyPorgamManage\obj\Release\MyPorgamManage.pdb
