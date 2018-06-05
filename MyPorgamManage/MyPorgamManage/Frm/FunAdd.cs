@@ -112,5 +112,43 @@ namespace MyPorgamManage
 
         }
 
+        private void simpleButton3_Click(object sender, EventArgs e)
+        {
+
+            FunctionRepository _FunctionRepository = _SelectNode.Tag as FunctionRepository;
+            if (null == _FunctionRepository)
+            {
+                MsgBox.Warning("更新失败....");
+                return;
+            }
+            if (string.IsNullOrEmpty(this.fastColoredTextBox1.Text.Trim()))
+            {
+                MsgBox.Warning("更新失败,函数内容不能为空....");
+                return;
+            }
+            FunctionContext _FunctionContext = new FunctionContext();
+            _FunctionContext.Fun_Id = _FunctionRepository.Fun_Id;
+            _FunctionContext.Fun_Context = this.fastColoredTextBox1.Text;
+            try
+            {
+                _CoreFunctionContext.UpdateEntity(_FunctionContext);
+                _SelectNode = null;
+                this.textBox1.Text = string.Empty;
+                this.textBox2.Text = string.Empty;
+                this.textBox3.Text = string.Empty;
+                this.textBox4.Text = string.Empty;
+                this.textBox5.Text = string.Empty;
+                this.fastColoredTextBox1.Text = string.Empty;
+                MsgBox.Infor("函数更新完成");
+
+            }
+            catch (Exception ex)
+            {
+                MsgBox.Warning("更新失败:" + ex.Message);
+            }
+            
+
+        }
+
     }
 }

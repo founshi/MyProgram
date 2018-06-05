@@ -8,3 +8,4 @@ C:\Users\ErricShih\Desktop\MyProgram\MyPorgamManage\Entity\bin\Release\Entity.pd
 C:\Users\ErricShih\Desktop\MyProgram\MyPorgamManage\Entity\bin\Release\SqlSugar.dll
 C:\Users\ErricShih\Desktop\MyProgram\MyPorgamManage\Entity\obj\Release\Entity.dll
 C:\Users\ErricShih\Desktop\MyProgram\MyPorgamManage\Entity\obj\Release\Entity.pdb
+C:\Users\ErricShih\Desktop\MyProgram\MyPorgamManage\Entity\obj\Release\Entity.csprojResolveAssemblyReference.cache
