@@ -1,0 +1,5 @@
+C:\Users\ErricShih\Desktop\MyPorgamManage\Entity\bin\Release\Entity.dll
+C:\Users\ErricShih\Desktop\MyPorgamManage\Entity\bin\Release\Entity.pdb
+C:\Users\ErricShih\Desktop\MyPorgamManage\Entity\bin\Release\SqlSugar.dll
+C:\Users\ErricShih\Desktop\MyPorgamManage\Entity\obj\Release\Entity.dll
+C:\Users\ErricShih\Desktop\MyPorgamManage\Entity\obj\Release\Entity.pdb

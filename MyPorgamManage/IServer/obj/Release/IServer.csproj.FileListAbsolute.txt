@@ -1,0 +1,5 @@
+C:\Users\ErricShih\Desktop\MyPorgamManage\IServer\bin\Release\IServer.dll
+C:\Users\ErricShih\Desktop\MyPorgamManage\IServer\bin\Release\IServer.pdb
+C:\Users\ErricShih\Desktop\MyPorgamManage\IServer\bin\Release\SqlSugar.dll
+C:\Users\ErricShih\Desktop\MyPorgamManage\IServer\obj\Release\IServer.dll
+C:\Users\ErricShih\Desktop\MyPorgamManage\IServer\obj\Release\IServer.pdb

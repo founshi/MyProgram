@@ -1,0 +1,16 @@
+C:\Users\ErricShih\Desktop\MyPorgamManage\MyFunctionTest\bin\Debug\MyFunctionTest.exe
+C:\Users\ErricShih\Desktop\MyPorgamManage\MyFunctionTest\bin\Debug\MyFunctionTest.pdb
+C:\Users\ErricShih\Desktop\MyPorgamManage\MyFunctionTest\bin\Debug\Repository.dll
+C:\Users\ErricShih\Desktop\MyPorgamManage\MyFunctionTest\bin\Debug\Repository.pdb
+C:\Users\ErricShih\Desktop\MyPorgamManage\MyFunctionTest\obj\Debug\MyFunctionTest.csprojResolveAssemblyReference.cache
+C:\Users\ErricShih\Desktop\MyPorgamManage\MyFunctionTest\obj\Debug\MyFunctionTest.exe
+C:\Users\ErricShih\Desktop\MyPorgamManage\MyFunctionTest\obj\Debug\MyFunctionTest.pdb
+C:\Users\ErricShih\Desktop\MyPorgamManage\MyFunctionTest\bin\Debug\MyFunctionTest.exe.config
+C:\Users\ErricShih\Desktop\MyPorgamManage\MyFunctionTest\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\ErricShih\Desktop\MyPorgamManage\MyFunctionTest\bin\Debug\SqlSugar.dll
+C:\Users\ErricShih\Desktop\MyPorgamManage\MyFunctionTest\bin\Debug\IServer.dll
+C:\Users\ErricShih\Desktop\MyPorgamManage\MyFunctionTest\bin\Debug\Server.dll
+C:\Users\ErricShih\Desktop\MyPorgamManage\MyFunctionTest\bin\Debug\Entity.dll
+C:\Users\ErricShih\Desktop\MyPorgamManage\MyFunctionTest\bin\Debug\IServer.pdb
+C:\Users\ErricShih\Desktop\MyPorgamManage\MyFunctionTest\bin\Debug\Server.pdb
+C:\Users\ErricShih\Desktop\MyPorgamManage\MyFunctionTest\bin\Debug\Entity.pdb

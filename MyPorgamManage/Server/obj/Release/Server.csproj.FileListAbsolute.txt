@@ -1,0 +1,14 @@
+C:\Users\ErricShih\Desktop\MyPorgamManage\Server\bin\Release\Server.dll.config
+C:\Users\ErricShih\Desktop\MyPorgamManage\Server\bin\Release\Server.dll
+C:\Users\ErricShih\Desktop\MyPorgamManage\Server\bin\Release\Server.pdb
+C:\Users\ErricShih\Desktop\MyPorgamManage\Server\bin\Release\Entity.dll
+C:\Users\ErricShih\Desktop\MyPorgamManage\Server\bin\Release\IServer.dll
+C:\Users\ErricShih\Desktop\MyPorgamManage\Server\bin\Release\Oracle.ManagedDataAccess.dll
+C:\Users\ErricShih\Desktop\MyPorgamManage\Server\bin\Release\SqlSugar.dll
+C:\Users\ErricShih\Desktop\MyPorgamManage\Server\bin\Release\System.Data.SQLite.dll
+C:\Users\ErricShih\Desktop\MyPorgamManage\Server\bin\Release\Entity.pdb
+C:\Users\ErricShih\Desktop\MyPorgamManage\Server\bin\Release\IServer.pdb
+C:\Users\ErricShih\Desktop\MyPorgamManage\Server\bin\Release\System.Data.SQLite.xml
+C:\Users\ErricShih\Desktop\MyPorgamManage\Server\obj\Release\Server.csprojResolveAssemblyReference.cache
+C:\Users\ErricShih\Desktop\MyPorgamManage\Server\obj\Release\Server.dll
+C:\Users\ErricShih\Desktop\MyPorgamManage\Server\obj\Release\Server.pdb

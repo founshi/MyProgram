@@ -1,0 +1,4 @@
+C:\Users\ErricShih\Desktop\MyPorgamManage\Repository\bin\Debug\Repository.dll
+C:\Users\ErricShih\Desktop\MyPorgamManage\Repository\bin\Debug\Repository.pdb
+C:\Users\ErricShih\Desktop\MyPorgamManage\Repository\obj\Debug\Repository.dll
+C:\Users\ErricShih\Desktop\MyPorgamManage\Repository\obj\Debug\Repository.pdb

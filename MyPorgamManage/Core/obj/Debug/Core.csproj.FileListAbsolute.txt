@@ -1,0 +1,15 @@
+C:\Users\ErricShih\Desktop\MyPorgamManage\Core\bin\Debug\Core.dll
+C:\Users\ErricShih\Desktop\MyPorgamManage\Core\bin\Debug\Core.pdb
+C:\Users\ErricShih\Desktop\MyPorgamManage\Core\bin\Debug\Entity.dll
+C:\Users\ErricShih\Desktop\MyPorgamManage\Core\bin\Debug\ICore.dll
+C:\Users\ErricShih\Desktop\MyPorgamManage\Core\bin\Debug\SqlSugar.dll
+C:\Users\ErricShih\Desktop\MyPorgamManage\Core\bin\Debug\Entity.pdb
+C:\Users\ErricShih\Desktop\MyPorgamManage\Core\bin\Debug\ICore.pdb
+C:\Users\ErricShih\Desktop\MyPorgamManage\Core\obj\Debug\Core.csprojResolveAssemblyReference.cache
+C:\Users\ErricShih\Desktop\MyPorgamManage\Core\obj\Debug\Core.dll
+C:\Users\ErricShih\Desktop\MyPorgamManage\Core\obj\Debug\Core.pdb
+C:\Users\ErricShih\Desktop\MyPorgamManage\Core\bin\Debug\IServer.dll
+C:\Users\ErricShih\Desktop\MyPorgamManage\Core\bin\Debug\Server.dll
+C:\Users\ErricShih\Desktop\MyPorgamManage\Core\bin\Debug\IServer.pdb
+C:\Users\ErricShih\Desktop\MyPorgamManage\Core\bin\Debug\Server.pdb
+C:\Users\ErricShih\Desktop\MyPorgamManage\Core\bin\Debug\Core.dll.config

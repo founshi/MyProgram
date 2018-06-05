@@ -1,0 +1,5 @@
+C:\Users\ErricShih\Desktop\MyPorgamManage\ICore\bin\Debug\ICore.dll
+C:\Users\ErricShih\Desktop\MyPorgamManage\ICore\bin\Debug\ICore.pdb
+C:\Users\ErricShih\Desktop\MyPorgamManage\ICore\bin\Debug\SqlSugar.dll
+C:\Users\ErricShih\Desktop\MyPorgamManage\ICore\obj\Debug\ICore.dll
+C:\Users\ErricShih\Desktop\MyPorgamManage\ICore\obj\Debug\ICore.pdb

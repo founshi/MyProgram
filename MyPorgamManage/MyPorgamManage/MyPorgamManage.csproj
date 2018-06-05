@@ -1,0 +1,332 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F74FFA1B-3DB0-4A5D-9080-987E2D2620DA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MyPorgamManage</RootNamespace>
+    <AssemblyName>MyPorgamManage</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <NuGetPackageImportStamp>33f4c2de</NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>20.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Aspose.Words">
+      <HintPath>..\packages\MyPack\Aspose.Words.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar2, Version=14.1.0.0, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.BonusSkins.v15.2" />
+    <Reference Include="DevExpress.Data.v15.2" />
+    <Reference Include="DevExpress.Images.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Office.v15.2.Core, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Pdf.v15.2.Core, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v15.2.Core, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.RichEdit.v15.2.Core, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v15.2" />
+    <Reference Include="DevExpress.Sparkline.v15.2.Core" />
+    <Reference Include="DevExpress.XtraBars.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v15.2" />
+    <Reference Include="DevExpress.XtraLayout.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPrinting.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraRichEdit.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraTreeList.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="FastColoredTextBox">
+      <HintPath>..\packages\MyPack\FastColoredTextBox.dll</HintPath>
+    </Reference>
+    <Reference Include="Oracle.ManagedDataAccess, Version=4.122.1.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=MSIL">
+      <HintPath>..\packages\Oracle.ManagedDataAccess.12.2.1100\lib\net40\Oracle.ManagedDataAccess.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="RazorEngine">
+      <HintPath>..\..\..\..\..\MyProg\实体生成工具Sugar_Chloe\RazorEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="SqlSugar, Version=4.6.4.9, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\sqlSugar.4.6.4.9\lib\SqlSugar.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SQLite, Version=1.0.108.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.Core.1.0.108.0\lib\net40\System.Data.SQLite.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DbLoginFrm\OracleFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DbLoginFrm\OracleFrm.Designer.cs">
+      <DependentUpon>OracleFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DbLoginFrm\SqliteFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DbLoginFrm\SqliteFrm.Designer.cs">
+      <DependentUpon>SqliteFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DbLoginFrm\SqlServerFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DbLoginFrm\SqlServerFrm.Designer.cs">
+      <DependentUpon>SqlServerFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm\AddProgram.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm\AddProgram.Designer.cs">
+      <DependentUpon>AddProgram.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm\AddUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm\AddUser.Designer.cs">
+      <DependentUpon>AddUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm\CodeTempletAddFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm\CodeTempletAddFrm.Designer.cs">
+      <DependentUpon>CodeTempletAddFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm\LogInFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm\LogInFrm.Designer.cs">
+      <DependentUpon>LogInFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Main.Designer.cs">
+      <DependentUpon>Frm_Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoadTreeDev.cs" />
+    <Compile Include="Frm\SetGirdViewStyle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm\SetGirdViewStyle.designer.cs">
+      <DependentUpon>SetGirdViewStyle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm\FunAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm\FunAdd.Designer.cs">
+      <DependentUpon>FunAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm\FunShow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm\FunShow.Designer.cs">
+      <DependentUpon>FunShow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoadTree.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SerializeAble.cs" />
+    <Compile Include="Stu.cs" />
+    <Compile Include="Frm\WarrantProg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm\WarrantProg.Designer.cs">
+      <DependentUpon>WarrantProg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm\PingFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm\PingFrm.Designer.cs">
+      <DependentUpon>PingFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm\TableToWord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm\TableToWord.Designer.cs">
+      <DependentUpon>TableToWord.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="DbLoginFrm\OracleFrm.resx">
+      <DependentUpon>OracleFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DbLoginFrm\SqliteFrm.resx">
+      <DependentUpon>SqliteFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DbLoginFrm\SqlServerFrm.resx">
+      <DependentUpon>SqlServerFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm\AddProgram.resx">
+      <DependentUpon>AddProgram.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm\AddUser.resx">
+      <DependentUpon>AddUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm\CodeTempletAddFrm.resx">
+      <DependentUpon>CodeTempletAddFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm\LogInFrm.resx">
+      <DependentUpon>LogInFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Main.resx">
+      <DependentUpon>Frm_Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm\SetGirdViewStyle.resx">
+      <DependentUpon>SetGirdViewStyle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm\FunAdd.resx">
+      <DependentUpon>FunAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm\FunShow.resx">
+      <DependentUpon>FunShow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Frm\WarrantProg.resx">
+      <DependentUpon>WarrantProg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm\PingFrm.resx">
+      <DependentUpon>PingFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm\TableToWord.resx">
+      <DependentUpon>TableToWord.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="App.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Core\Core.csproj">
+      <Project>{04375c5c-3d68-4059-a38f-d05165b7f231}</Project>
+      <Name>Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Entity\Entity.csproj">
+      <Project>{3a63ae63-9b9d-4a01-bae4-d0f9a643aebe}</Project>
+      <Name>Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ICore\ICore.csproj">
+      <Project>{c2627c25-69a0-4c4f-a7da-331fda27e692}</Project>
+      <Name>ICore</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\IServer\IServer.csproj">
+      <Project>{2bd72435-8993-41f7-8474-9d63bd0d261e}</Project>
+      <Name>IServer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Repository\Repository.csproj">
+      <Project>{104c7fe4-4f0c-4554-87e0-232b13df1ec4}</Project>
+      <Name>Repository</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Server\Server.csproj">
+      <Project>{53c132a1-8fce-43e4-a081-9f58549c3e4c}</Project>
+      <Name>Server</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\apply_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\csharp_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\palette_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\csharp_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\feature_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addnewdatasource_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="20.ico" />
+    <Content Include="Resources\20.ico" />
+    <None Include="Resources\save_32x32.png" />
+    <None Include="Resources\edittask_32x32.png" />
+    <None Include="Resources\newtask_32x32.png" />
+    <None Include="Resources\forcetesting_32x32.png" />
+    <None Include="Resources\viewonweb_32x32.png" />
+    <None Include="Resources\freezetoprow_32x32.png" />
+    <None Include="Resources\packageproduct_32x32.png" />
+    <None Include="Resources\addnewdatasource_32x321.png" />
+    <None Include="Resources\customizegrid_32x32.png" />
+    <None Include="Resources\cards_32x32.png" />
+    <None Include="Resources\editdatasource_32x32.png" />
+    <None Include="Resources\deletedatasource_32x32.png" />
+    <None Include="Resources\database_32x32.png" />
+    <None Include="Resources\addnewdatasource_32x32.png" />
+    <None Include="Resources\new_16x16.png" />
+    <None Include="Resources\new_32x32.png" />
+    <None Include="Resources\open_16x16.png" />
+    <None Include="Resources\open_32x32.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\System.Data.SQLite.Core.1.0.108.0\build\net40\System.Data.SQLite.Core.targets" Condition="Exists('..\packages\System.Data.SQLite.Core.1.0.108.0\build\net40\System.Data.SQLite.Core.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>这台计算机上缺少此项目引用的 NuGet 程序包。启用“NuGet 程序包还原”可下载这些程序包。有关详细信息，请参阅 http://go.microsoft.com/fwlink/?LinkID=322105。缺少的文件是 {0}。</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\System.Data.SQLite.Core.1.0.108.0\build\net40\System.Data.SQLite.Core.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\System.Data.SQLite.Core.1.0.108.0\build\net40\System.Data.SQLite.Core.targets'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

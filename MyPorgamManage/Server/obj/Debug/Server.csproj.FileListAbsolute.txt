@@ -1,0 +1,14 @@
+C:\Users\ErricShih\Desktop\MyPorgamManage\Server\obj\Debug\Server.csprojResolveAssemblyReference.cache
+C:\Users\ErricShih\Desktop\MyPorgamManage\Server\bin\Debug\Server.dll
+C:\Users\ErricShih\Desktop\MyPorgamManage\Server\bin\Debug\Server.pdb
+C:\Users\ErricShih\Desktop\MyPorgamManage\Server\bin\Debug\Entity.dll
+C:\Users\ErricShih\Desktop\MyPorgamManage\Server\bin\Debug\IServer.dll
+C:\Users\ErricShih\Desktop\MyPorgamManage\Server\bin\Debug\SqlSugar.dll
+C:\Users\ErricShih\Desktop\MyPorgamManage\Server\bin\Debug\Entity.pdb
+C:\Users\ErricShih\Desktop\MyPorgamManage\Server\bin\Debug\IServer.pdb
+C:\Users\ErricShih\Desktop\MyPorgamManage\Server\obj\Debug\Server.dll
+C:\Users\ErricShih\Desktop\MyPorgamManage\Server\obj\Debug\Server.pdb
+C:\Users\ErricShih\Desktop\MyPorgamManage\Server\bin\Debug\Server.dll.config
+C:\Users\ErricShih\Desktop\MyPorgamManage\Server\bin\Debug\System.Data.SQLite.dll
+C:\Users\ErricShih\Desktop\MyPorgamManage\Server\bin\Debug\System.Data.SQLite.xml
+C:\Users\ErricShih\Desktop\MyPorgamManage\Server\bin\Debug\Oracle.ManagedDataAccess.dll
