@@ -2,3 +2,7 @@ C:\Users\ErricShih\Desktop\MyPorgamManage\Repository\bin\Release\Repository.dll
 C:\Users\ErricShih\Desktop\MyPorgamManage\Repository\bin\Release\Repository.pdb
 C:\Users\ErricShih\Desktop\MyPorgamManage\Repository\obj\Release\Repository.dll
 C:\Users\ErricShih\Desktop\MyPorgamManage\Repository\obj\Release\Repository.pdb
+C:\Users\ErricShih\Desktop\MyProgram\MyPorgamManage\Repository\bin\Release\Repository.dll
+C:\Users\ErricShih\Desktop\MyProgram\MyPorgamManage\Repository\bin\Release\Repository.pdb
+C:\Users\ErricShih\Desktop\MyProgram\MyPorgamManage\Repository\obj\Release\Repository.dll
+C:\Users\ErricShih\Desktop\MyProgram\MyPorgamManage\Repository\obj\Release\Repository.pdb
