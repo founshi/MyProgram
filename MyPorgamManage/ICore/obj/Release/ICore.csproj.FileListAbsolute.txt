@@ -9,3 +9,9 @@ C:\Users\ErricShih\Desktop\MyProgram\MyPorgamManage\ICore\bin\Release\SqlSugar.d
 C:\Users\ErricShih\Desktop\MyProgram\MyPorgamManage\ICore\obj\Release\ICore.dll
 C:\Users\ErricShih\Desktop\MyProgram\MyPorgamManage\ICore\obj\Release\ICore.pdb
 C:\Users\ErricShih\Desktop\MyProgram\MyPorgamManage\ICore\obj\Release\ICore.csprojResolveAssemblyReference.cache
+C:\Users\ErricShih\Desktop\MyGetHubSrc\MyProgram\MyPorgamManage\ICore\bin\Release\ICore.dll
+C:\Users\ErricShih\Desktop\MyGetHubSrc\MyProgram\MyPorgamManage\ICore\bin\Release\ICore.pdb
+C:\Users\ErricShih\Desktop\MyGetHubSrc\MyProgram\MyPorgamManage\ICore\bin\Release\SqlSugar.dll
+C:\Users\ErricShih\Desktop\MyGetHubSrc\MyProgram\MyPorgamManage\ICore\obj\Release\ICore.csprojResolveAssemblyReference.cache
+C:\Users\ErricShih\Desktop\MyGetHubSrc\MyProgram\MyPorgamManage\ICore\obj\Release\ICore.dll
+C:\Users\ErricShih\Desktop\MyGetHubSrc\MyProgram\MyPorgamManage\ICore\obj\Release\ICore.pdb

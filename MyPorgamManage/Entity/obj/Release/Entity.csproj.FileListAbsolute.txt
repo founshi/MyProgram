@@ -9,3 +9,9 @@ C:\Users\ErricShih\Desktop\MyProgram\MyPorgamManage\Entity\bin\Release\SqlSugar.
 C:\Users\ErricShih\Desktop\MyProgram\MyPorgamManage\Entity\obj\Release\Entity.dll
 C:\Users\ErricShih\Desktop\MyProgram\MyPorgamManage\Entity\obj\Release\Entity.pdb
 C:\Users\ErricShih\Desktop\MyProgram\MyPorgamManage\Entity\obj\Release\Entity.csprojResolveAssemblyReference.cache
+C:\Users\ErricShih\Desktop\MyGetHubSrc\MyProgram\MyPorgamManage\Entity\obj\Release\Entity.csprojResolveAssemblyReference.cache
+C:\Users\ErricShih\Desktop\MyGetHubSrc\MyProgram\MyPorgamManage\Entity\obj\Release\Entity.dll
+C:\Users\ErricShih\Desktop\MyGetHubSrc\MyProgram\MyPorgamManage\Entity\obj\Release\Entity.pdb
+C:\Users\ErricShih\Desktop\MyGetHubSrc\MyProgram\MyPorgamManage\Entity\bin\Release\Entity.dll
+C:\Users\ErricShih\Desktop\MyGetHubSrc\MyProgram\MyPorgamManage\Entity\bin\Release\Entity.pdb
+C:\Users\ErricShih\Desktop\MyGetHubSrc\MyProgram\MyPorgamManage\Entity\bin\Release\SqlSugar.dll

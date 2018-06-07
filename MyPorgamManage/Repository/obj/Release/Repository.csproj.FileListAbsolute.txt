@@ -6,3 +6,8 @@ C:\Users\ErricShih\Desktop\MyProgram\MyPorgamManage\Repository\bin\Release\Repos
 C:\Users\ErricShih\Desktop\MyProgram\MyPorgamManage\Repository\bin\Release\Repository.pdb
 C:\Users\ErricShih\Desktop\MyProgram\MyPorgamManage\Repository\obj\Release\Repository.dll
 C:\Users\ErricShih\Desktop\MyProgram\MyPorgamManage\Repository\obj\Release\Repository.pdb
+C:\Users\ErricShih\Desktop\MyGetHubSrc\MyProgram\MyPorgamManage\Repository\bin\Release\Repository.dll
+C:\Users\ErricShih\Desktop\MyGetHubSrc\MyProgram\MyPorgamManage\Repository\bin\Release\Repository.pdb
+C:\Users\ErricShih\Desktop\MyGetHubSrc\MyProgram\MyPorgamManage\Repository\obj\Release\Repository.csprojResolveAssemblyReference.cache
+C:\Users\ErricShih\Desktop\MyGetHubSrc\MyProgram\MyPorgamManage\Repository\obj\Release\Repository.dll
+C:\Users\ErricShih\Desktop\MyGetHubSrc\MyProgram\MyPorgamManage\Repository\obj\Release\Repository.pdb
